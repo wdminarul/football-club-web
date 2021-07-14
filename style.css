@@ -1,0 +1,604 @@
+/*-----------
+font impot  
+-------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*-------------
+css utilities 
+---------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/*--------------
+header style 
+----------------*/
+
+header {
+    width: 100%;
+    background-color: #2D25A0;
+}
+
+/* ----------------
+navigation bar style  
+-------------------*/
+.home {
+    padding-bottom: 60px;
+
+}
+
+.nav {
+    position: relative;
+    padding-top: 42px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li:first-child {
+    padding-left: 10px 0px;
+    margin-left: -16px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.navbar ul li a:hover {
+    color: #E02C6D;
+}
+
+.nav .login-site {
+    width: 123px;
+    height: 44px;
+    text-align: center;
+    background-color: #E02C6D;
+    color: #fff;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav .login-site span {
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.nav .login-site .fa-sign-inalt {
+    font-size: 16px;
+}
+
+/*--------------- 
+home-section style 
+-----------------*/
+
+.home-section {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.home-text {
+    color: #ffffff;
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.btn {
+    text-decoration: none;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 10px 24px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s linear;
+    overflow: hidden;
+    position: absolute;
+}
+
+.btn span {
+    transition: translate 0.5s linear;
+    position: relative;
+    transition: 0.5s ease-out;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 5px 1px #e4dee0;
+}
+
+.btn:hover span {
+    margin-left: 10px;
+}
+
+.banner img {
+    width: 656px;
+    height: 438px;
+    transition: 0.7s linear;
+}
+
+.banner:hover img {
+    transform: translate(10px) scale(1.2);
+}
+
+/*----------------
+ main section style 
+ -----------------*/
+
+/*---------------- 
+ players blog style
+ -------------------  */
+
+.blog-section {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    justify-items: center;
+}
+
+.players-blog {
+    width: 330px;
+    height: 490px;
+    box-shadow: 0px 0px 20px 2px #e4dee0;
+    padding-top: 10px;
+}
+
+.player-pic {
+    text-align: center;
+}
+
+.players-blog img {
+    width: 300px;
+    height: 256px;
+    align-items: center;
+}
+
+.player-details {
+    width: 300px;
+    height: 256px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.players-blog h3 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+
+.players-blog p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+/*------------------
+ highlight-section style 
+ ------------------- */
+.highlight-section {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-highlight-content {
+    width: 469px;
+    height: 370px;
+}
+
+.play-highlight-content h1 {
+    color: #000;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-top: 0px;
+}
+
+.play-highlight-content p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.play-highlight-content a {
+    text-decoration: none;
+    ;
+}
+
+.play-highlight-content .highlight-btn {
+    width: 168px;
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 10px 24px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s linear;
+    overflow: hidden;
+    position: absolute;
+}
+
+.highlight-btn span {
+    transition: translate 0.5s linear;
+    position: relative;
+    transition: 0.5s ease-out;
+}
+
+
+.highlight-btn:hover span {
+    margin-left: 10px;
+}
+
+.game-pic {
+    width: 567px;
+    height: 438px;
+}
+
+.game-pic img {
+    width: 567px;
+    height: 438px;
+}
+
+/* ---------------
+matches video style 
+------------------*/
+.all-final-matches {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.all-video {
+    width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-column-gap: 30px;
+}
+
+.video {
+    margin-left: 0;
+    padding-left: 0;
+    width: 500px;
+    height: 400px;
+}
+
+/*---------------------
+sponser logo style 
+----------------------*/
+.fifa-sponser {
+    background-color: #fffafa;
+}
+
+.sponser-section {
+    text-align: center;
+    padding-top: 20px
+}
+
+.sponer-section h1 {
+    color: #000;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.final-sponser {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.all-sponser img {
+    width: 250px;
+    height: auto;
+}
+
+/*-------------------
+footer-section style 
+---------------------*/
+#footer {
+    width: 100%;
+    background-color: #dadbe2;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+.footer-section {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-section p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: normal;
+}
+
+.footer-logo img {
+    width: 400px;
+    height: 90px;
+}
+
+.footer-logo .footer-social-icon ul {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.footer-social-icon ul li {
+    display: inline-block;
+}
+
+
+.footer-social-icon ul li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.footer-social-icon ul li a img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-section p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: normal;
+}
+
+/* -------------------------------
+Recponsive for Mobile devices 
+----------------------------------*/
+
+
+@media only screen and (max-width:662px) and (min-width:320px) {
+
+    /* ----------------
+Responcive navigation bar style  
+-------------------*/
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+
+
+    /*--------------- 
+Responcive home-section style 
+-----------------*/
+    .home-content {
+        width: 90%;
+    }
+
+    .home-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 40px;
+        padding-top: 0px;
+
+    }
+
+    .home-content .home-text {
+        width: 90%;
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .banner img {
+        width: 90%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .banner:hover img {
+        transform: translate(10px) scale(1.05);
+    }
+
+    /*---------------- 
+ Responcive players blog style
+ -------------------  */
+
+    .blog-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        justify-items: center;
+    }
+
+
+    /*------------------
+Responcive highlight-section style 
+ ------------------- */
+    .highlight-section {
+        width: 90%;
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+    }
+
+    .play-highlight-content {
+        width: 90%;
+        height: auto;
+    }
+
+    .play-highlight-content h1 {
+        width: 90%;
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .play-highlight-content p {
+        width: 65%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
+    .game-pic img {
+        width: 60%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    /* ---------------
+Responcive matches video style 
+------------------*/
+    .all-video {
+        width: 65%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
+
+    .video {
+        margin-left: 0;
+        padding-left: 0;
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .video iframe {
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+
+    /*---------------------
+Responcive sponser logo style 
+----------------------*/
+    .sponer-section h1 {
+        color: #000;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 80px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .final-sponser {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        grid-row-gap: 30px;
+    }
+
+    .all-sponser img {
+        width: 250px;
+        height: auto;
+    }
+
+    /*-------------------
+Responcive footer-section style 
+---------------------*/
+    #footer {
+        width: 100%;
+        background-color: #dadbe2;
+        padding-bottom: 20px;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-section p {
+        font-size: 18px;
+        color: #000000;
+        font-weight: normal;
+    }
+
+    .footer-logo {
+        margin: 0px;
+    }
+
+    .footer-logo img {
+        width: 200px;
+        height: 40px;
+    }
+
+    .footer-social-icon {
+        height: auto;
+    }
+
+    .footer-social-icon ul li a {
+        text-decoration: none;
+        padding: 0px;
+        font-size: 0px;
+    }
+
+    .footer-social-icon ul li a img {
+        padding-top: 0 px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .footer-section p {
+        font-size: 8px;
+        color: #000000;
+        font-weight: normal;
+        margin-top: 0px;
+    }
+}
