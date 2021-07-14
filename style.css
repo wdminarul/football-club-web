@@ -468,6 +468,10 @@ Responcive home-section style
 Responcive highlight-section style 
  ------------------- */
     .highlight-section {
+        display: none;
+    }
+
+    /*  .highlight-section {
         width: 90%;
         padding-top: 50px;
         display: grid;
@@ -476,13 +480,12 @@ Responcive highlight-section style
     }
 
     .play-highlight-content {
-        width: 90%;
+        width: 60%;
         height: auto;
     }
 
     .play-highlight-content h1 {
-        width: 90%;
-        font-size: 40px;
+        width: 70%;
         line-height: 80px;
     }
 
@@ -498,7 +501,7 @@ Responcive highlight-section style
         height: auto;
         margin-top: 50px;
     }
-
+*/
     /* ---------------
 Responcive matches video style 
 ------------------*/
